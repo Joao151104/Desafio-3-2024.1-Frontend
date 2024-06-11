@@ -1,0 +1,90 @@
+nav { 
+    height: 100px;
+    border: #FF731A;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo { 
+    width: 100px;
+    height: 100px;
+    border-left: 0;
+    border-style: solid;
+    border-color:#FF731A; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav h1 { 
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    margin: auto;
+    color: #FF731A;
+    font-size: 48px;
+}
+
+img { 
+    width: 70px;
+    height: 70px;
+}
+
+select { 
+    width: 400px;
+    padding: 10px;
+    color: black;
+    background-color:#D9D9D9; 
+    border-color: #D9D9D9;
+    border-width: 5px;
+    text-align: center;
+}
+
+.dados { 
+    column-count: 3;
+    column-gap: 0; /* Ensure no gap between columns */
+    padding: 0;
+    margin: 0;
+}
+
+.conteudo { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo h1 { 
+    font-family: 'Montserrat';
+    color: #FF731A;
+}
+
+iframe { 
+    margin-top: 30px;
+    width: 75vw;
+    height: 65vh;
+    border-style: solid;
+    border-color: #FF731A;
+}
+
+.municipios {
+    padding: 0;
+    margin: 0;
+}
+
+.municipios li { 
+    list-style: none;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Montserrat';
+    line-height: 30px;
+    font-weight: 400;
+    border: 1px solid #FF731A; 
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    padding: 0;
+    margin: 0;
+}
